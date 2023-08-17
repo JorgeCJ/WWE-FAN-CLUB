@@ -150,7 +150,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <h1 className="flex flex-wrap text-slate-100 text-5xl items-center justify-center w-screen">Who is the best female fighter?</h1>
+          <h1 className="flex flex-wrap text-slate-100 text-5xl items-center justify-center w-screen border-solid border-2 border-white bg-black">Who is the best female fighter?</h1>
           <div className="inline-flex flex-wrap w-screen justify-around items-center">
             {imagesDataWoman.map((item) => (
               <div key={item.id} className="inlineflex items-center border-solid border-2 border-black bg-gradient-to-r from-red-500 via-transparent to-blue-500 rounded-xl overflow-hidden">
