@@ -135,7 +135,7 @@ export default function Home() {
           <h1 className="flex flex-wrap text-slate-100 text-5xl items-center justify-center w-screen">Who is the best male fighter?</h1>
           <div className="inline-flex flex-wrap w-screen justify-around items-center">
             {imagesDataMan.map((item) => (
-              <div key={item.id} className="inlineflex items-center border-solid border-2 border-black bg-slate-50 rounded-xl overflow-hidden">
+              <div key={item.id} className="inlineflex items-center border-solid border-2 border-black bg-gradient-to-r from-red-500 via-transparent to-blue-500 rounded-xl overflow-hidden">
                 <Image src={item.src} alt={item.alt} width="250" height="300" />
                 {item.liked && session ? (
                   <IconHeartFilled className="cursor-pointer" 
