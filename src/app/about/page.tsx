@@ -20,7 +20,7 @@ export default function About() {
       {isLoading ? (
         <Loading />
       ) : (
-        <div className="flex flex-wrap w-screen h-screen bg-custom-bg bg-cover bg-center border-solid border-2 border-slate-50 justify-center">
+        <div className="flex flex-wrap w-screen min-h-screen bg-custom-bg bg-cover bg-center border-solid border-2 border-slate-50 justify-center relative">
           <Header />
           <div className="pt-2">
           <Image src="/images/JohnCenaSmile.gif" alt="John Cena Smile" width="300" height="400" className="border-2 border-slate-50" />
