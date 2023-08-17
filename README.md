@@ -14,6 +14,8 @@ This is a website for fans of WWE, the most famous wrestling on TV. Don't be sca
 
 `NEXTAUTH_AUTH=`
 
+If you want to see this project working, here is the link: https://wwe-fan-club.vercel.app/
+
 # **Technologies used:**
 - [React](https://react.dev/learn)
 - [Typescript](https://www.typescriptlang.org/docs/)
