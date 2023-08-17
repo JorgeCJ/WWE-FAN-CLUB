@@ -138,11 +138,11 @@ export default function Home() {
               <div key={item.id} className="inlineflex items-center border-solid border-2 border-black bg-slate-50 rounded-xl overflow-hidden">
                 <Image src={item.src} alt={item.alt} width="250" height="300" />
                 {item.liked && session ? (
-                  <IconHeartFilled
+                  <IconHeartFilled className="cursor-pointer" 
                     onClick={(event) => { handleLikedImageMan(item); if (event.target && session) { item.likes-- } }}
                   />
                 ) : (
-                  <IconHeart
+                  <IconHeart className="cursor-pointer" 
                     onClick={(event) => { handleLikedImageMan(item); if (event.target && session) { item.likes++ } }}
                   />
                 )}
@@ -156,11 +156,11 @@ export default function Home() {
               <div key={item.id} className="inlineflex items-center border-solid border-2 border-black bg-slate-50 rounded-xl overflow-hidden">
                 <Image src={item.src} alt={item.alt} width="250" height="300" />
                 {item.liked && session ? (
-                  <IconHeartFilled
+                  <IconHeartFilled className="cursor-pointer" 
                     onClick={(event) => { handleLikedImageWoman(item); if (event.target && session) { item.likes-- } }}
                   />
                 ) : (
-                  <IconHeart
+                  <IconHeart className="cursor-pointer" 
                     onClick={(event) => { handleLikedImageWoman(item); if (event.target && session) { item.likes++ } }}
                   />
                 )}
